@@ -2,24 +2,28 @@ public class Demo {
     public static void main(String[] args) {
         String nickName, name, fname, lname, knowledge;
         int age, techStack, uidesign, plang, max, min;
-        boolean dev, x;
+        boolean dev, x, qualified;
         double percent;
 
+        // string section
         fname = "john edward"; lname = "cabrera"; nickName = "ed"; knowledge = "Is he knowledgeable in programming? the answer is ";
         name = fname + " " + lname;
 
+        // double section
         percent = 100.00;
-        
+
+        // array section
         String[] programmingLanguage = {"TypeScript", "JavaSript", "php", "java"};
         String[] uid = {"adobe xd", "balsamiq", "figma"};
-        
-        age = 33; uidesign = uid.length; plang = programmingLanguage.length;
-        dev = true; x = uidesign<plang;
-        techStack = uid.length + programmingLanguage.length;
 
+        // boolean section
+        age = 33; uidesign = uid.length; plang = programmingLanguage.length; dev = true; x = uidesign<plang; techStack = uid.length + programmingLanguage.length; qualified = uidesign < plang;
+
+        // math method
         max = Math.max(uidesign, plang);
         min = Math.min(uidesign, plang);
 
+        // display start here
         System.out.println( nickName + "'s first Java program!"); //first line to display
         System.out.println(name + "'s next Goal is to become Java Developer");
         System.out.println("Eat | Sleep | Code == Never stop && Focus on your Goals");
@@ -38,5 +42,11 @@ public class Demo {
         System.out.println("that is why when I start my carrier in tech industry I gain " + techStack + " total in techstacks");
         System.out.println("The square root of ("+ techStack + ") techstack is " + Math.sqrt(techStack) + " I'm just saying hahaha");
         System.out.println("At least the number of techstack that I need to learn is " + (int)Math.random()*2);
+        System.out.println("Since " + nickName + " is " + qualified + " Dev he can do codings");
+        if (uidesign > plang) {
+            System.out.println(nickName.toUpperCase() + " is true UI Designer");
+        } else {
+            System.out.println(nickName.toUpperCase() + " is true Programmer");
+        }
     }
 }
