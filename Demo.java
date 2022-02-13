@@ -1,7 +1,7 @@
 public class Demo {
     public static void main(String[] args) {
         String nickName, name, fname, lname, knowledge;
-        int age, techStack, uidesign, plang, max, min;
+        int age, techStack, uidesign, plang, max, min, todo1, todo2, todo3, enumn;
         boolean dev, x, qualified;
         double percent;
 
@@ -15,9 +15,13 @@ public class Demo {
         // array section
         String[] programmingLanguage = {"TypeScript", "JavaSript", "php", "java"};
         String[] uid = {"adobe xd", "balsamiq", "figma"};
+        String[] todo = {"eat", "sleep", "code"};
+
+        // integer section
+        age = 33; uidesign = uid.length; plang = programmingLanguage.length; todo1 = todo[0].length(); todo2 = todo[1].length(); todo3 = todo[2].length(); enumn = 1;
 
         // boolean section
-        age = 33; uidesign = uid.length; plang = programmingLanguage.length; dev = true; x = uidesign<plang; techStack = uid.length + programmingLanguage.length; qualified = uidesign < plang;
+        dev = true; x = uidesign<plang; techStack = uid.length + programmingLanguage.length; qualified = uidesign < plang;
 
         // math method
         max = Math.max(uidesign, plang);
@@ -26,7 +30,7 @@ public class Demo {
         // display start here
         System.out.println( nickName + "'s first Java program!"); //first line to display
         System.out.println(name + "'s next Goal is to become Java Developer");
-        System.out.println("Eat | Sleep | Code == Never stop && Focus on your Goals");
+        System.out.println(todo[0] + " | " + todo[1] + " | "  + todo[2] + " | == Never stop && Focus on your Goals");
         System.out.println("I'm " + age + " years old");
         System.out.println("I know " + programmingLanguage.length + " programming language");
         System.out.println("these are " + programmingLanguage[0] + " " + programmingLanguage[1] + " " + programmingLanguage[2] + " " + programmingLanguage[3]);
@@ -47,6 +51,31 @@ public class Demo {
             System.out.println(nickName.toUpperCase() + " is true UI Designer");
         } else {
             System.out.println(nickName.toUpperCase() + " is true Programmer");
+        };
+        switch(todo1) {
+            case 1:
+            System.out.println("Eating is important to acquired nutrients that our body need.");
+            break;
+            case 2:
+            System.out.println("Sleeping is essentially need to regenerate energy to continue your daily task.");
+            break;
+            case 3:
+            System.out.println("Coding is the most important to learn new programming language");
+            break;
+            default:
+            System.out.println("Nothing just playing games.");
+        };
+        while (enumn < 4) {
+            System.out.println(enumn + " code!");
+            enumn++;
+        };
+        do {
+            System.out.println(enumn + " grind!");
+            enumn++;
         }
+        while (enumn < 4);
+        for (int i = 1; i < 4; i++) {
+            System.out.println(i + " goal!!");
+        };
     }
 }
