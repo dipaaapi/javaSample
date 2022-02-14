@@ -77,5 +77,12 @@ public class Demo {
         for (int i = 1; i < 4; i++) {
             System.out.println(i + " goal!!");
         };
+        for (int i = enumn; i < 10; i++) {
+            if (i == 0) {
+                System.out.println("this is it!");
+                break;
+            }
+            System.out.println("display anything related to my skills");
+        }
     }
 }
