@@ -1,3 +1,4 @@
+package javaMethodVariants;
 public class methodParameters {
     static void myMethod(String enumn) {
         System.out.println(enumn + " Code!");

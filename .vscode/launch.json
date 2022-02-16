@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch methodOverloading",
+            "request": "launch",
+            "mainClass": "javaMethodVariants.methodOverloading",
+            "projectName": "javaSample_977e9520"
+        },
+        {
+            "type": "java",
             "name": "Launch methodMultipleParams",
             "request": "launch",
             "mainClass": "methodMultipleParams",

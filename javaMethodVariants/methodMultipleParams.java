@@ -1,3 +1,4 @@
+package javaMethodVariants;
 public class methodMultipleParams {
     static void myMethod(String count, int enumn) {
         System.out.println(count + " " + enumn + "% done Coding!");

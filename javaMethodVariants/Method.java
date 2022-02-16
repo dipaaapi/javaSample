@@ -1,3 +1,4 @@
+package javaMethodVariants;
 public class Method {
     static void myMethod() {
         System.out.println("I just got executed!");
