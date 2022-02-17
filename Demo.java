@@ -6,7 +6,7 @@ public class Demo {
         double percent;
 
         // string section
-        fname = "john edward"; lname = "cabrera"; nickName = "ed"; knowledge = "Is he knowledgeable in programming? the answer is ";
+        fname = "John Edward"; lname = "cabrera"; nickName = "ed"; knowledge = "Is he knowledgeable in programming? the answer is ";
         name = fname + " " + lname;
 
         // double section
