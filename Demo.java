@@ -57,7 +57,7 @@ public class Demo {
             System.out.println("Eating is important to acquired nutrients that our body need.");
             break;
             case 2:
-            System.out.println("Sleeping is essentially need to regenerate energy to continue your daily task.");
+            System.out.println(todo1 + "ing is essentially need to regenerate energy to continue your daily task.");
             break;
             case 3:
             System.out.println("Coding is the most important to learn new programming language");
